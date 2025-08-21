@@ -1,0 +1,11 @@
+TransactionID,Amount,Type,Location,IsFraud,Type_enc,Location_enc
+T001,5000,Online,Delhi,0,1,1
+T002,25000,ATM,Unknown,1,0,4
+T003,3200,POS,Mumbai,0,2,3
+T004,41000,Online,Unknown,1,1,4
+T005,800,POS,Chennai,0,2,0
+T006,150000,ATM,Delhi,1,0,1
+T007,9000,ATM,Jaipur,0,0,2
+T008,6000,Online,Delhi,0,1,1
+T009,6700,POS,Delhi,0,2,1
+T010,70000,ATM,Unknown,1,0,4

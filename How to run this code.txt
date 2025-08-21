@@ -1,0 +1,27 @@
+*Install Python 3 (if not installed) from python.org.
+
+*Clone or download this repository to your local machine.
+
+*Open a terminal or command prompt and navigate to the project folder.
+Example (Windows):
+
+*text
+cd path\to\bank_fraud_detector
+Install dependencies required to run the project:
+
+*text
+pip install pandas scikit-learn
+Prepare the transaction data CSV file (or use the provided transactions.csv).
+
+*Run the preprocessing script to encode and prepare data:
+
+*text
+python preprocess.py
+Train the fraud detection model using the training script:
+
+*text
+python train_model.py
+For real-time fraud prediction, run the interactive prediction script:
+
+*text
+python predict_new.py
